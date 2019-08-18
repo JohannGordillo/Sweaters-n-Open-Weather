@@ -1,7 +1,7 @@
 # Contribuciones
 
 ## ¡Hola!
-Agradezco tu interés en contribuir al proyecto Sweather Open Weather. 😊
+Agradezco tu interés en contribuir al proyecto SnOW. 😊
 
 ## Pautas de participación
 

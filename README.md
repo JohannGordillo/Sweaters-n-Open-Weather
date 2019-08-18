@@ -25,16 +25,13 @@ actuales de las coordenadas presentes en tu archivo seleccionado.
 ### Pre-requisitos 📋
 
 * Python 3.x
-El proyecto fue desarrollado en Python 3.6.
 
 * Pytest
-Para ejecutar las pruebas, es necesario instalar Pytest:
 ```
 pip install -U pytest
 ```
 
-* Requests
-Para hacer las peticiones al servidor, usamos la libreria Requests:
+* Requests 
 ```
 pip install requests
 ```
@@ -57,7 +54,7 @@ python -m pytest tests
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/JohannGordillo/xxxxxx) para detalles
+Por favor lee el [CONTRIBUTING.md](CONTRIBUTING.md) para detalles
 sobre las contribuciones.
 
 ## Autores ✒️
@@ -66,13 +63,13 @@ sobre las contribuciones.
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
-* Califica con 10 🤓.
+* Califica con 10 el proyecto de Johann 🤓.
 * Invita una cerveza 🍺 al desarrollador.
 * Comenta a otros sobre este proyecto 📢.
 
 ---
-⌨️ con ❤️ por [PyCoderMX](https://github.com/JohannGordillo) 😊
+⌨️ con ❤️ por [JohannGordillo](https://github.com/JohannGordillo) 😊

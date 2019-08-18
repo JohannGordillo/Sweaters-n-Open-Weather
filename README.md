@@ -1,4 +1,4 @@
-# Sweather Open Weather (SOW).
+# Sweathers 'n Open Weather (SnOW).
 
 Dado un archivo .csv con hasta 3,000 coordenadas geográficas, da el clima en tiempo real
 en cada una de las ubicaciones haciendo uso del web service Open Weather Map.
@@ -9,7 +9,7 @@ yo también.
 
 ## Comenzando 🚀
 
-Para hacer uso de Sweather Open Weather:
+Para hacer uso de Sweathers 'n Open Weather (SnOW):
 
 1. Colocate en la raíz del proyecto (Tarea01) y ejecuta:
 ```
@@ -31,7 +31,7 @@ actuales de las coordenadas presentes en tu archivo seleccionado.
 pip install -U pytest
 ```
 
-* Requests 
+* Requests
 ```
 pip install requests
 ```

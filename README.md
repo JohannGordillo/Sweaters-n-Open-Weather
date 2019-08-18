@@ -72,4 +72,4 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 * Comenta a otros sobre este proyecto 📢.
 
 ---
-⌨️ con ❤️ por [JohannGordillo](https://github.com/JohannGordillo) 😊
+⌨️ con ❤️ por [Johann Gordillo](https://github.com/JohannGordillo) 😊

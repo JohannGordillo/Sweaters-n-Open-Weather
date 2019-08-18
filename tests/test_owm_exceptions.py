@@ -13,7 +13,7 @@ files_gui.
 
 
 import pytest
-from tarea01.sow import *
+from tarea01.snow import *
 from tarea01.owm_exceptions import *
 
 

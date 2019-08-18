@@ -13,7 +13,7 @@ files_gui.
 
 import pytest
 import requests
-from tarea01.sow import *
+from tarea01.snow import *
 
 API_KEY = get_api_key()
 

@@ -1,4 +1,4 @@
-import tarea01.sow
+import tarea01.snow
 
 if __name__ == '__main__':
-    tarea01.sow.main()
+    tarea01.snow.main()

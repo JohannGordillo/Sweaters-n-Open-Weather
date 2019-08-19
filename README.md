@@ -65,11 +65,11 @@ sobre las contribuciones.
 
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles
 
-## Expresiones de Gratitud 🎁
+## ¿Y ahora? 🎁
 
-* Califica con 10 el proyecto de Johann 🤓.
-* Invita una cerveza 🍺 al desarrollador.
-* Comenta a otros sobre este proyecto 📢.
+* Califica con 10 el proyecto de Johann 🤓
+* Invita una cerveza 🍺 al desarrollador
+* Comenta a otros sobre este proyecto 📢
 
 ---
 ⌨️ con ❤️ por [JohannGordillo](https://github.com/JohannGordillo) 😊

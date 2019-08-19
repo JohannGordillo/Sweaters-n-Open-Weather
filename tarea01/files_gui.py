@@ -31,6 +31,18 @@ class FileBrowser(object):
         self.__root = Tk()
         self.__file_path = file_path
 
+        self.__file_paths = []
+
+    def search_paths(self):
+        if len(self.__file_paths) == 0:
+            self.__root.withdraw()
+            file_types = (("csv files", "*.csv"),)
+            files = fd.askopenfilenames(title="Selecciona el archivo", filetypes=file_types)
+            self.__file_paths = list(files)
+
+    def get_paths(self):
+        return self.__file_paths
+
     def search_path(self):
         """
         Despliega una ventana del manejador de archivos

@@ -16,7 +16,6 @@ sobre el clima dandole coordenadas geográficas.
 ====================================================
 """
 
-
 from tarea01.files_gui import FileBrowser
 from tarea01.owm_exceptions import *
 import configparser
@@ -84,7 +83,7 @@ def get_weather(api_key, lat, lon):
         raise SystemExit
 
 
-def main():
+def main(file):
     """
     Función principal.
     """
@@ -103,9 +102,10 @@ def main():
     api_key = get_api_key()
 
     # Desplegamos una interfaz gráfica para buscar el archivo .CSV.
-    fb = FileBrowser()
-    fb.search_path()
-    file_path = fb.get_path()
+    #fb = FileBrowser()
+    #fb.search_path()
+    #file_path = fb.get_path()
+    file_path = file
 
     # Leemos el archivo .CSV.
     with open(file_path, "r") as csv_file:

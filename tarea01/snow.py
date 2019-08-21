@@ -63,11 +63,11 @@ def get_weather(api_key, lat, lon):
 
     # Intentamos obtener la información del servidor de Open Weather Map.
     try:
-        r = requests.get(url, timeout=8)
+        r = requests.get(url, timeout=10)
         return r.json()
 
     except requests.exceptions.ConnectionError:
-        print("Error\nHa ocurrido un error al intentar conectarse con el servidor de Open Weather Map. Lo sentimos.")
+        print("Error\nHa ocurrido un error al intentar conectarse con el servidor de Open Weather Map.\nLo sentimos.")
         raise SystemExit
 
     except requests.exceptions.ConnectTimeout:
@@ -75,7 +75,7 @@ def get_weather(api_key, lat, lon):
         raise SystemExit
 
     except requests.exceptions.ReadTimeout:
-        print("Error\nEl servidor ha tardado demasiado tiempo en responder a las peticiones. Lo sentimos.")
+        print("Error\nEl servidor ha tardado demasiado tiempo en responder a las peticiones.\nLo sentimos.")
         raise SystemExit
 
     except requests.exceptions.InvalidSchema:
@@ -101,10 +101,7 @@ def main(file):
     # Obtenemos la llave de la API.
     api_key = get_api_key()
 
-    # Desplegamos una interfaz gráfica para buscar el archivo .CSV.
-    #fb = FileBrowser()
-    #fb.search_path()
-    #file_path = fb.get_path()
+    # Ruta del archivo .CSV.
     file_path = file
 
     # Leemos el archivo .CSV.

@@ -1,4 +1,4 @@
-# Sweathers 'n Open Weather (SnOW).
+# Sweathers 'n Open Weather (SnOW). :snowman:
 
 Dado un archivo .csv con hasta 3,000 coordenadas geográficas, da el clima en tiempo real
 en cada una de las ubicaciones haciendo uso del web service Open Weather Map.
@@ -17,7 +17,7 @@ python run.py
 ```
 
 2. Se desplegará una interfaz gráfica para que puedas seleccionar
-tu archivo .csv
+tu archivo (o tus archivos) .csv
 
 3. ¡Es todo! se te mostrarán en la salida estándar los climas
 actuales de las coordenadas presentes en tu archivo seleccionado.
@@ -51,6 +51,7 @@ python -m pytest tests
 
 * [Pytest](https://docs.pytest.org/en/latest/) - Usado para generar las pruebas
 * [Requests](https://2.python-requests.org/en/master/) - Usado para generar peticiones al web service
+* [LaTeX](https://www.latex-project.org/) - Usado para elaborar el informe
 
 ## Contribuyendo 🖇️
 

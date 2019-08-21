@@ -13,7 +13,7 @@ Para hacer uso de Sweathers 'n Open Weather (SnOW):
 
 1. Descarga o clona el repositorio en tu computadora.
 
-2. Colocate en la raíz del proyecto (Tarea01) y ejecuta:
+2. Colocate en la raíz del proyecto y ejecuta:
 ```
 python run.py
 ```

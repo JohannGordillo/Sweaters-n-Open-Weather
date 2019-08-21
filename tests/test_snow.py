@@ -16,7 +16,7 @@ import requests
 import tarea01.snow
 
 
-FILE_PATH = "./data/1.csv"
+FILE_PATH = "./data/prueba1.csv"
 
 def main(file):
     """

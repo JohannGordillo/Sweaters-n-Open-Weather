@@ -63,7 +63,7 @@ def get_weather(api_key, lat, lon):
 
     # Intentamos obtener la información del servidor de Open Weather Map.
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=12)
         return r.json()
 
     except requests.exceptions.ConnectionError:

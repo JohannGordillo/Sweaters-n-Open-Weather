@@ -11,15 +11,17 @@ yo también.
 
 Para hacer uso de Sweathers 'n Open Weather (SnOW):
 
-1. Colocate en la raíz del proyecto (Tarea01) y ejecuta:
+1. Descarga o clona el repositorio en tu computadora.
+
+2. Colocate en la raíz del proyecto (Tarea01) y ejecuta:
 ```
 python run.py
 ```
 
-2. Se desplegará una interfaz gráfica para que puedas seleccionar
+3. Se desplegará una interfaz gráfica para que puedas seleccionar
 tu archivo (o tus archivos) .csv
 
-3. ¡Es todo! se te mostrarán en la salida estándar los climas
+4. ¡Es todo! se te mostrarán en la salida estándar los climas
 actuales de las coordenadas presentes en tu archivo seleccionado.
 
 ### Pre-requisitos 📋

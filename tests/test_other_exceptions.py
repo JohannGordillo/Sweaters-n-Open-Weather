@@ -15,6 +15,7 @@ import pytest
 import requests
 from tarea01.snow import *
 
+
 API_KEY = get_api_key()
 
 def test_connection_error():
@@ -40,6 +41,7 @@ def test_connection_error():
         # unicamente para comprobar que la excepcion
         # sea lanzada.
         r = requests.get(url, timeout=0.0000001)
+
 
 def test_invalid_schema_error():
     # Valores válidos para latitud y longitud

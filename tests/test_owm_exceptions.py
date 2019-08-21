@@ -11,7 +11,6 @@ files_gui.
 ====================================================
 """
 
-
 import pytest
 from tarea01.snow import *
 from tarea01.owm_exceptions import *
@@ -20,8 +19,8 @@ from tarea01.owm_exceptions import *
 def test_invalid_location_error():
     """
     Prueba para ver que al pasarle coordenadas
-    incorrectas al método correspondiente (get_weather()),
-    éste lance una excepción InvalidLocationError del
+    incorrectas al programa, éste lance una
+    excepción InvalidLocationError del
     módulo owm_exceptions.
     """
 

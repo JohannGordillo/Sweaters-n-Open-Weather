@@ -40,7 +40,7 @@ pip install requests
 
 ## Ejecutando las pruebas ⚙️
 
-1. Colocate en la raíz del proyecto (Tarea01) y ejecuta:
+1. Colocate en la raíz del proyecto y ejecuta:
 ```
 python -m pytest tests
 ```

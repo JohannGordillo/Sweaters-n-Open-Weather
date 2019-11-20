@@ -1,4 +1,4 @@
-# Sweathers 'n Open Weather (SnOW). :snowman:
+# Sweaters 'n Open Weather (SnOW). :snowman:
 
 Dado un archivo .csv con hasta 3,000 coordenadas geográficas, da el clima en tiempo real
 en cada una de las ubicaciones haciendo uso del web service Open Weather Map.
